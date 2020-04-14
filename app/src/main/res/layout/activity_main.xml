@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+<EditText
+    android:id="@+id/edit1"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</EditText>
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+<GridLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+
+    >
+
+    <Button
+        style="@style/my"
+        android:id="@+id/button1"
+        android:text="+"
+        android:onClick="click1"
+        />
+
+    <Button
+        style="@style/my"
+        android:id="@+id/button2"
+        android:onClick="click2"
+        android:text="-" />
+
+    <Button
+        style="@style/my"
+        android:id="@+id/button3"
+        android:text="*"
+        android:onClick="click3" />
+
+    <Button
+        style="@style/my"
+        android:id="@+id/button4"
+        android:text="/"
+        android:onClick="click4"
+        />
+</GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
